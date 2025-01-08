@@ -1,6 +1,6 @@
 # Welcome
 
-** to my Github portfolio.
+**to my Github portfolio.**
 
 Here you can check what kind of projects, apps and websites I have coded or been in collaboration.
 
