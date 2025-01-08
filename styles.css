@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    padding: 0%;
+}
+
+html {
+    background-image: linear-gradient(to bottom right, #BFB5EE, #7970A7, #342B5F);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.delius-regular {
+    font-family: "Delius", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content {
+    min-height: 100vh;
+}
+
+.ylapalkki {
+    display: flex;
+    justify-content: center;
+    background-color: #194241;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+
+.grid-container{
+    display: flex;
+    width: 100%;
+}
+
+.vasenboksi {
+    flex-basis: 259px;
+    flex-grow: 0;
+}
+
+.whoami {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    background-color: red;
+    margin: 10px;
+}
+
+.oikeaboksi {
+    flex-grow: 1;
+}
+
+.topnav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    gap: 10px;
+    padding: 20px;
+    background-color: #BFB5EE;
+    margin: 10px;
+}
+
+.topnav>a {
+    color: black;
+    text-decoration: none;
+}
+
+.topnav>a.active {
+    text-decoration-line: underline;
+}
+
+a:hover {
+    color: white;
+}
+
+.ingredients {
+    
+}
