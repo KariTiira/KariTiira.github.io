@@ -9,6 +9,7 @@ html {
     background-repeat: no-repeat;
 }
 
+
 .delius-regular {
     font-family: "Delius", serif;
     font-weight: 400;
@@ -46,12 +47,20 @@ h1 {
     flex-grow: 0;
 }
 
+
 .whoami {
     display: flex;
     justify-content: flex-start;
-    padding-left: 20px;
-    background-color: red;
+    padding: 20px;
+    background-color: #edc2bf;
     margin: 10px;
+    text-align: left;
+    flex-direction: column; 
+}
+
+.erottelu {
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 .oikeaboksi {
@@ -82,5 +91,14 @@ a:hover {
 }
 
 .ingredients {
-    
+    text-align: center;
+    color: rgb(213, 214, 237);
+    font-size: 1.5rem;
+}
+
+.more {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-size: 1rem;
 }
