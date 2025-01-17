@@ -4,7 +4,7 @@ html, body {
 }
 
 html {
-    background-image: linear-gradient(to bottom right, #BFB5EE, #7970A7, #342B5F);
+    background-image: linear-gradient(to bottom right, #dfc3bd, #5983a5, #0d2c5e);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -23,7 +23,7 @@ html {
 .ylapalkki {
     display: flex;
     justify-content: center;
-    background-color: #194241;
+    background-image: url(materials/background_summer_pielinen.JPG);
     height: 300px;
     background-position: center;
     background-size: cover;
@@ -45,6 +45,7 @@ h1 {
 .vasenboksi {
     flex-basis: 259px;
     flex-grow: 0;
+    
 }
 
 
@@ -52,15 +53,18 @@ h1 {
     display: flex;
     justify-content: flex-start;
     padding: 20px;
-    background-color: #edc2bf;
+    background-color: #929db3;
     margin: 10px;
     text-align: left;
     flex-direction: column; 
+    box-shadow: 6px 6px 3px #9ca4b4f9;
+    
 }
 
 .erottelu {
     display: grid;
     grid-template-columns: auto auto;
+    
 }
 
 .oikeaboksi {
@@ -73,7 +77,7 @@ h1 {
     padding-right: 20px;
     gap: 10px;
     padding: 20px;
-    background-color: #BFB5EE;
+    background-color: #929db3;
     margin: 10px;
 }
 
@@ -90,6 +94,11 @@ a:hover {
     color: white;
 }
 
+a:active {
+    text-decoration: underline;
+    color: white;
+}
+
 .ingredients {
     text-align: center;
     color: rgb(213, 214, 237);
@@ -101,4 +110,23 @@ a:hover {
     padding-left: 10px;
     padding-right: 15px;
     font-size: 1rem;
+}
+
+.button {
+    background-color: #305079;
+    border-radius: 50%;
+    border-color: #7f8c9d;
+    border-width: 2px ;
+    border-style: solid;
+    padding: 15px;
+    color: rgb(213, 214, 237);
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.button:hover {
+    border-radius: 40%;
+    border-color: rgb(171, 191, 200);
+    border
 }
