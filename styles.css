@@ -4,7 +4,7 @@ html, body {
 }
 
 html {
-    background-image: linear-gradient(to bottom right, #dfc3bd, #5983a5, #0d2c5e);
+    background-image: linear-gradient(#092248, #5983a5, #dfc3bd);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -53,11 +53,11 @@ h1 {
     display: flex;
     justify-content: flex-start;
     padding: 20px;
-    background-color: #929db3;
+    background-color: #5983a5a3;
     margin: 10px;
     text-align: left;
     flex-direction: column; 
-    box-shadow: 6px 6px 3px #9ca4b4f9;
+    box-shadow: 6px 6px 3px #274870;
     
 }
 
@@ -77,8 +77,9 @@ h1 {
     padding-right: 20px;
     gap: 10px;
     padding: 20px;
-    background-color: #929db3;
+    background-color: #274870c7;
     margin: 10px;
+
 }
 
 .topnav>a {
@@ -103,6 +104,7 @@ a:active {
     text-align: center;
     color: rgb(213, 214, 237);
     font-size: 1.5rem;
+    padding-right: 20px;
 }
 
 .more {
@@ -114,18 +116,23 @@ a:active {
 
 .button {
     background-color: #305079;
-    border-radius: 50%;
-    border-color: #7f8c9d;
-    border-width: 2px ;
-    border-style: solid;
-    padding: 15px;
+    border-radius: 8px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
     color: rgb(213, 214, 237);
-    font-weight: bold;
     letter-spacing: 2px;
-
+    margin-top: 100px;
 }
 
+
 .button:hover {
-    border-radius: 40%;
-    border-color: rgb(171, 191, 200);
+    box-shadow: 0px 0px 5px 5px #253d5e;
+    transition-duration: 0.3s;
+}
+
+.ticci {
+    height: 400px;
+    width: auto;
 }
