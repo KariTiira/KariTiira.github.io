@@ -1,0 +1,178 @@
+html, body {
+    margin: 0;
+    padding: 0%;
+}
+
+html {
+    background-image: linear-gradient(#092248, #5983a5, #dfc3bd);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.delius-regular {
+    font-family: "Delius", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content {
+    min-height: 100vh;
+}
+
+.ylapalkki {
+    display: flex;
+    justify-content: center;
+    background-image: url(materials/background_summer_pielinen.JPG);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+
+.grid-container{
+    display: flex;
+    width: 100%;
+}
+
+.vasenboksi {
+    flex-basis: 259px;
+    flex-grow: 0;
+    
+}
+
+
+.whoami {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: #5983a5a3;
+    margin: 10px;
+    text-align: left;
+    flex-direction: column; 
+    box-shadow: 6px 6px 3px #274870;
+    
+}
+
+.erottelu {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+.oikeaboksi {
+    flex-grow: 1;
+}
+
+.topnav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    gap: 10px;
+    padding: 20px;
+    background-color: #274870c7;
+    margin: 10px;
+
+}
+
+.nav-wrapped a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-wrapped>a.active {
+    text-decoration-line: underline;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    text-decoration: underline;
+    color: white;
+}
+
+.ingredients {
+    text-align: center;
+    color: rgb(213, 214, 237);
+    font-size: 1.5rem;
+    padding-right: 20px;
+}
+
+.more {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-size: 1rem;
+}
+
+.button {
+    background-color: #305079;
+    border-radius: 8px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    color: rgb(213, 214, 237);
+    letter-spacing: 2px;
+    margin-top: 30px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+
+.button:hover {
+    box-shadow: 0px 0px 5px 5px #253d5e;
+    transition-duration: 0.3s;
+}
+
+.ticci {
+    height: 400px;
+    width: auto;
+}
+.nav-link {
+    position: relative;
+}
+
+.nav-wrapped {
+    position: relative;
+}
+
+
+.sub-menu {
+    position: absolute;
+    background-color:  #5983a5;
+    display: none;
+    flex-direction: column;
+    gap: 7px;
+    padding: 10px;
+    left: -10px;
+    padding-top: 40px;
+    top: -10px;
+    z-index: 5;
+    min-width: 100%;
+}
+
+.nav-wrapped:hover > .sub-menu, .sub-menu:hover {
+    display: flex;
+}
+.nav-wrapped:hover > .nav-link {
+    z-index: 10;
+}
+
+.sub-menu > a {
+    text-wrap: nowrap;
+}
+
+.front-pages {
+    height: 450px;
+    width: auto;
+}
