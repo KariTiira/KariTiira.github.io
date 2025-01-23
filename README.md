@@ -10,5 +10,3 @@ The page works just like any other webpage.
 
 Need more information of me or the projects I have worked in? Please don't hesitate to contact me via contact information I have shared with you.
 
-
-[Tässä ultimaattinen MD guide](https://www.markdownguide.org/basic-syntax/)
