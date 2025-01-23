@@ -125,6 +125,7 @@ a:active {
     letter-spacing: 2px;
     margin-top: 30px;
     display: inline-block;
+    margin-bottom: 50px;
 }
 
 
@@ -169,4 +170,9 @@ a:active {
 
 .sub-menu > a {
     text-wrap: nowrap;
+}
+
+.front-pages {
+    height: 450px;
+    width: auto;
 }
